@@ -2,7 +2,7 @@
 
 欢迎提问题、提修复、提建议。先说清两件事，能省掉很多来回：
 
-- 本仓库是 [metisziwei.com](https://metisziwei.com/?from=gh-contrib) 排盘引擎的**开源快照**，定期从线上同步（节奏见 README「维护节奏与贡献」）。
+- 本仓库基于 [metisziwei.com](https://metisziwei.com/?from=gh-contrib) 排盘引擎的**开源快照**；上游 `Renhuai123/ziwei-doushu` 已停止更新，现由 `xiaochenggushiduo/ziwei-doushu` 独立维护（见 README「维护节奏与贡献」）。
 - 本仓库**包含** AI 接入层（`lib/ai/`、`lib/brain/`）与 `/api/*` 路由（见 README「AI 功能」），但仍**不含**商业断语库、用户系统与部署配置；AI 功能需要自行配置一个 OpenAI 兼容的 Key。
 
 ## 提问题
@@ -37,4 +37,4 @@ npm test             # 排盘回归
 
 ---
 
-**English.** Issues and PRs are welcome. This repo is an open snapshot of the charting engine behind metisziwei.com. It **includes** the AI layer (`lib/ai/`, `lib/brain/`) and the `/api/*` routes, but still **excludes** the commercial interpretation database, user accounts and deployment configuration; AI features require your own OpenAI-compatible key. For a chart you believe is wrong, please use the "Chart result question" form with full birth data and a reference result. Before opening a PR, run `npm ci`, `npm run typecheck` and `npm test`; changes to chart results need evidence and a regression test.
+**English.** Issues and PRs are welcome. This repo started as an open snapshot of the charting engine behind metisziwei.com and is now maintained independently; the upstream repository is no longer updated. It **includes** the AI layer (`lib/ai/`, `lib/brain/`) and the `/api/*` routes, but still **excludes** the commercial interpretation database, user accounts and deployment configuration; AI features require your own OpenAI-compatible key. For a chart you believe is wrong, please use the "Chart result question" form with full birth data and a reference result. Before opening a PR, run `npm ci`, `npm run typecheck` and `npm test`; changes to chart results need evidence and a regression test.

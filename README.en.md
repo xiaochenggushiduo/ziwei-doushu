@@ -12,7 +12,7 @@
 
 </div>
 
-> **About this repository**: `xiaochenggushiduo/ziwei-doushu` is the full runnable version including AI interpretation, dual-chart compatibility analysis and “My Profile”. Datasets, upstream engine and releases remain at [`Renhuai123/ziwei-doushu`](https://github.com/Renhuai123/ziwei-doushu).
+> **About this repository**: `xiaochenggushiduo/ziwei-doushu` is the full runnable version including AI interpretation, dual-chart compatibility analysis and “My Profile”. The upstream [`Renhuai123/ziwei-doushu`](https://github.com/Renhuai123/ziwei-doushu) is no longer updated; this repository is the independently maintained continuation. Historical datasets and releases remain available upstream.
 
 **1. Philosophy:** Zi Wei Dou Shu is a treasure of traditional Chinese astrology, and Ni Haixia laid out its authentic system in *Tian Ji* (《天纪》). We hope technology can bring more people to learn it.
 
@@ -28,7 +28,7 @@ We open-source the charting algorithm and the knowledge base because we believe 
 
 <sub>v3.0 characters per chart estimated from a 2,160-chart sample; all other figures are full counts. Both versions have 13 topics per chart.</sub>
 
-This repo is an open snapshot of the engine behind [metisziwei.com](https://metisziwei.com/?from=gh-readme-en), synced from production periodically. This version additionally includes the AI layer (`lib/ai/`, `lib/brain/`) and the `/api/*` routes.
+This repo started as an open snapshot of the engine behind [metisziwei.com](https://metisziwei.com/?from=gh-readme-en) and is now maintained independently; the upstream repository is no longer updated. This version additionally includes the AI layer (`lib/ai/`, `lib/brain/`) and the `/api/*` routes.
 
 > **Note: on readings of family relations**
 >
