@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "如果本项目对你的研究或产品有帮助，请引用本仓库。"
+title: "紫微斗数 · 开源排盘引擎与 AI 解读"
+abstract: "基于倪海厦《天纪》教学体系的紫微斗数排盘引擎，包含完整排盘算法、古籍原文、AI 流式解读、双盘合盘与「我的档案」。"
+authors:
+  - family-names: "王多鱼AI"
+    alias: "xiaochenggushiduo"
+    website: "https://github.com/xiaochenggushiduo"
+repository-code: "https://github.com/xiaochenggushiduo/ziwei-doushu"
+url: "https://github.com/xiaochenggushiduo/ziwei-doushu"
+license: MIT
+version: "0.1.0"
+date-released: "2026-11-15"
+keywords:
+  - 紫微斗数
+  - ziwei
+  - astrology
+  - nextjs
+  - typescript
+  - ai
+references:
+  - type: software
+    title: "iztro"
+    repository-code: "https://github.com/SylarLong/iztro"
+    license: MIT
+  - type: software
+    title: "lunar-javascript"
+    repository-code: "https://github.com/6tail/lunar-javascript"
+    license: MIT
