@@ -124,7 +124,7 @@ export default function ChartPage() {
       <div
         style={{
           display: 'grid',
-          gridTemplateColumns: 'minmax(0, 1fr) minmax(0, 380px)',
+          gridTemplateColumns: 'minmax(0, 1fr)',
           gap: 20, marginTop: 16, alignItems: 'start',
         }}
       >

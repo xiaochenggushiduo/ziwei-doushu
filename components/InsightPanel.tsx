@@ -486,7 +486,7 @@ ${selectedSiHua.starName}化${selectedSiHua.siHua}落在【${palaceName}】，�
   };
 
   return (
-    <div className="flex flex-col h-full rounded-xl overflow-hidden card-glass">
+    <div className="flex flex-col h-[min(44rem,80dvh)] min-h-0 min-w-0 rounded-xl overflow-hidden card-glass">
 
       {/* ── 对话工具条：当前时间视图 / 轮次计数 / 新对话 ── */}
       <div className="flex-shrink-0 px-3 pt-2 flex items-center gap-2">
